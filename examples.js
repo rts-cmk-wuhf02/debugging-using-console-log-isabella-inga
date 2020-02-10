@@ -13,21 +13,21 @@ const bar = {
 };
 console.log(foo, bar);
 },
-
+  
 two: () => {
-/* Example 2: async rendering of details in console.logs */
+/* Example 2: changing information */
+let number = "1";
+number += 0;
+console.log(number);
+},
+
+three: () => {
+/* Example 3: async rendering of details in console.logs */
 let array = [1, 2, 3];
 console.log(array)
 let newArray = array;
 newArray.push(4);
 console.log(newArray)
-},
-
-three: () => {
-/* Example 3: changing information */
-let number = "1";
-number += 0;
-console.log(number);
 },
 
 four: () => {
