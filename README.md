@@ -1,3 +1,8 @@
+links:
+https://medium.com/datadriveninvestor/stopping-using-console-log-and-start-using-your-browsers-debugger-62bc893d93ff
+https://dev.to/songthamtung/stop-console-logging-this-is-how-to-use-chrome-to-debug-javascript-48nm
+https://hackernoon.com/please-stop-using-console-log-its-broken-b5d7d396cf15
+
 console.log() requires developer to _know_ what needs to be logged. a lot of time can be wasted trying to find the right thing.
 
 i.e. console.log( function() ) vs console.log( function )
