@@ -2,7 +2,7 @@
 
 2. _console.log()_ kræver at man ved hvad man skal bruge til debugging. Når man får uventede resultater, hvorhenne startede problemet? Og selv hvis du logger den rigtig variabel, logger du den på det rigtige tidspunkt? Hvis det kan ændres (f.eks. en variabel definered med let), måske er den problematiske information allerede væk når du når til console loggen.
 
-3. Når man console logger, peger man faktisk på noget data som er gemt i hukommelsen. I en browser, der ofte venter med at hente ind mere information fra, f.eks. en array eller object, er den information det kan hentes gengives kun når brugeren klikker. Så den information vist til mig i console.loggen er faktisk IKKE hele nøjagtig.
+3. Når man console logger, peger man faktisk på noget data som er gemt i hukommelsen. I en browser, der ofte venter med at hente ind mere information fra, f.eks. en array eller object, er den information der kan hentes kun gengivet når brugeren klikker. Så den information der bliver vist til mig i console.loggen er faktisk IKKE hele nøjagtig.
 
 4. Det kan være super svært at ser forskellen mellem data typer i en console log. Så unanset om jeg logger min data, kan jeg ikke altid se hvorfor der er et problem i det.
 
